@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Addly",
+    "slug": "addly",
+    "privacy": "public",
+    "entryPoint": "./app/index.js",
+    "sdkVersion": "39.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3940256099942544/5224354917"
+      }
+    },
+    "ios": {
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3940256099942544/5224354917"
+      },
+      "supportsTablet": true
+    }
+  }
+}

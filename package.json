@@ -1,0 +1,24 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "web": "expo start --web",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "private": true,
+  "devDependencies": {
+    "babel-preset-expo": "^7.0.0",
+    "shadow-cljs": "2.11.7"
+  },
+  "dependencies": {
+    "expo": "^39.0.4",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
+    "react-native-admob": "^2.0.0-beta.6",
+    "react-native-web": "^0.11.7",
+    "expo-ads-admob": "~8.3.0"
+  }
+}
